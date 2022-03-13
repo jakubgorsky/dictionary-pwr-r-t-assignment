@@ -75,6 +75,8 @@ dictionary.remove("key2");
 
 Althought there is a short-hand syntax for reading and modifying key-value pairs (further described under [short-hand syntax](#short-hand-syntax)), you can get a value of a corresponding key by invoking `getValue(const std::string& key)` method. It takes in a key of type `std::string` and returns value of type `int`.
 
+If the key-value pair was not found it throws an `std::invalid_argument` exception.
+
 #### Example:
 ```Cpp
 dictionary.append("key3", 3);
