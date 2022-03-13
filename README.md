@@ -5,6 +5,9 @@ Simple C++ implementation of Python's dictionary based on separate chaining hash
 
 Included main.cpp is for demonstration purposes only, you do not have to download it in order to use this class.
 
+# Prequisites
+I don't think there are any, but I am using a C++14 compiler, so be sure to use at least that.
+
 # Usage
 
 ## There are two things you need to know before using this object.
